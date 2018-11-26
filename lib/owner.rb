@@ -65,22 +65,6 @@ class Owner
       dog_count = @pets[:dogs].length
       cat_count = @pets[:cats].length
       "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."
-      # i_have = "I have"
-      # q = @pets.size
-      # i = 0
-      # @pets.each do |pet, instances|
-      #   instances.count}"
-      #   i_have += " #{pet.to_s[0..-2]}"
-      #   i += 1
-      #   if i == 1
-      #     i_have << ","
-      #   elsif i == q
-      #     i_have << "(s)."
-      #   else
-      #     i_have << "(s),"
-      #   end
-    # end
-    # i_have
   end
 
 end
